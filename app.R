@@ -13,7 +13,7 @@ library(DT)
 library(stringr)
 library(tools)
 library(shinythemes)
-
+library(readr)
 # load data
 df <- read_csv('WHO_COVID-19.csv')
 
